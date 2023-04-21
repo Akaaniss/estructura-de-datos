@@ -19,7 +19,7 @@ for fila in matriz2:
     print(fila2)
 
 if fila1 == fila2 and columna1 == columna2:
-    matriz_resultante = [[matriz1[i][j] + matriz2[i][j] for j in range(columna1)] for i in range(fila1)]
+    matriz_resultante = [[matriz1[i][j] + matriz2[i][j]for j in range(columna1)]for i in range(fila1)]
 
 else:
     print("las dimensiones de las matrices no coinciden, por tanto no se pueden sumar")
